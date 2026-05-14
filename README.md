@@ -1,86 +1,102 @@
-# Netflix Data Cleaning & Visualization Project
+# Netflix Data Science Project
 
 ## 📌 Project Overview
-This project focuses on cleaning, processing, and visualizing the Netflix Titles dataset using Python.  
-The goal of this project is to perform data preprocessing and generate meaningful insights through data visualization.
+This project is an end-to-end Data Science project built using the Netflix Titles Dataset.
+
+The project includes:
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Machine Learning Prediction
+
+The objective was to analyze Netflix content and build a Machine Learning model to predict whether content is a Movie or TV Show.
 
 ---
 
-## 🛠️ Tools & Libraries Used
+# 🛠️ Technologies Used
+
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
+- Scikit-learn
 - Jupyter Notebook
 
 ---
 
-## 📂 Dataset
-Dataset used:
+# 📂 Dataset
+
+Dataset Used:
 - Netflix Titles Dataset
 
-The dataset contains information about Netflix Movies and TV Shows including:
+Features include:
 - Title
+- Type
 - Director
-- Cast
 - Country
-- Release Year
 - Rating
+- Release Year
 - Duration
 - Genre
 
 ---
 
-## 🧹 Data Cleaning Performed
-The following preprocessing steps were performed:
+# 🧹 Data Cleaning
 
-- Removed duplicate records
-- Handled missing values
-- Filled null values in:
-  - Director
-  - Country
-  - Cast
-  - Rating
-  - Duration
-- Converted date columns into proper datetime format
-- Removed invalid date entries
+Performed:
+- Missing value handling
+- Duplicate removal
+- Date conversion
+- Invalid data removal
 
 ---
 
-## 📊 Visualizations Created
-The project includes the following visualizations:
+# 📊 Data Visualization
 
-1. Movies vs TV Shows Distribution
-2. Top 10 Countries Producing Netflix Content
-3. Ratings Distribution
-4. Netflix Content Added Over Years
-
----
-
-## 📈 Key Insights
-- Netflix has more Movies than TV Shows.
-- The United States produces the highest amount of Netflix content.
-- TV-MA is the most common rating category.
-- Netflix content increased rapidly after 2015.
+Created visualizations for:
+- Movies vs TV Shows
+- Top Producing Countries
+- Ratings Distribution
+- Netflix Growth Over Years
 
 ---
 
-## 🚀 Project Outcome
-This project helped in understanding:
-- Data Cleaning Techniques
-- Data Visualization
-- Exploratory Data Analysis (EDA)
-- Real-world dataset handling using Python
+# 🤖 Machine Learning
+
+Built a Decision Tree Classification model to predict:
+- Movie
+- TV Show
+
+Steps included:
+- Feature Selection
+- Label Encoding
+- Train-Test Split
+- Model Training
+- Prediction
+- Accuracy Evaluation
+- Confusion Matrix Visualization
 
 ---
 
-## 📁 Project Files
-- `netflix_analysis.ipynb` → Jupyter Notebook
-- `netflix_titles.csv` → Dataset File
-- `README.md` → Project Documentation
+# 📈 Key Insights
+
+- Netflix contains more Movies than TV Shows.
+- USA contributes the highest amount of content.
+- Netflix content increased significantly after 2015.
+- Machine Learning model successfully predicted content types.
 
 ---
 
-## 👨‍💻 Author
+# 📁 Project Files
+
+- `netflix_analysis.ipynb`
+- `netflix_ml.ipynb`
+- `netflix_titles.csv`
+- `README.md`
+
+---
+
+# 👨‍💻 Author
+
 Ayush Patnayak
